@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="456.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mydiary.FilesController">
+   <children>
+      <Label alignment="CENTER" layoutX="-6.0" layoutY="-4.0" prefHeight="44.0" prefWidth="606.0" style="-fx-background-color: #03a9f4;" text="LIST OF FILES" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="MS Outlook" size="14.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="99.0" layoutY="99.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="305.0" text="blahblah" />
+      <CheckBox layoutX="99.0" layoutY="140.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="305.0" text="blahblah" />
+      <CheckBox layoutX="99.0" layoutY="185.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="305.0" text="blahblah" />
+      <CheckBox layoutX="99.0" layoutY="228.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="305.0" text="blahblah" />
+      <CheckBox layoutX="99.0" layoutY="271.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="305.0" text="blahblah" />
+      <JFXButton layoutX="206.0" layoutY="353.0" prefHeight="25.0" prefWidth="196.0" text="DOWNLOAD">
+         <font>
+            <Font name="MS Outlook" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

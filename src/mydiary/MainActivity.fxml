@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="549.0" minWidth="838.0" prefHeight="549.0" prefWidth="838.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mydiary.MainActivityController">
+   <children>
+      <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="514.0" prefWidth="838.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label layoutX="359.0" layoutY="51.0" text="Student Details" textFill="#282626">
+                     <font>
+                        <Font name="MS Outlook" size="18.0" />
+                     </font>
+                  </Label>
+                  <HBox layoutX="-3.0" prefHeight="36.0" prefWidth="844.0" style="-fx-background-color: #03a9f4;">
+                     <children>
+                        <AnchorPane prefHeight="46.0" prefWidth="830.0">
+                           <children>
+                              <JFXButton layoutX="676.0" layoutY="5.0" style="-fx-background-color: #FFFFFF;" text="My Diary">
+                                 <font>
+                                    <Font name="MS Outlook" size="14.0" />
+                                 </font>
+                              </JFXButton>
+                              <JFXButton layoutX="757.0" layoutY="5.0" prefHeight="25.0" prefWidth="73.0" style="-fx-background-color: #FFFFFF;" text="Logout">
+                                 <font>
+                                    <Font name="MS Outlook" size="14.0" />
+                                 </font>
+                              </JFXButton>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <ImageView fitHeight="128.0" fitWidth="127.0" layoutX="122.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="sassaassa" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="306.0" layoutY="132.0" prefHeight="36.0" prefWidth="58.0" text="Name  :" textFill="#222425">
+                     <font>
+                        <Font name="MS Outlook" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="434.0" layoutY="139.0" prefHeight="22.0" prefWidth="217.0" text="blahblah" />
+                  <Label layoutX="301.0" layoutY="191.0" text="Register Number :">
+                     <font>
+                        <Font name="MS Outlook" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="434.0" layoutY="188.0" prefHeight="22.0" prefWidth="217.0" text="blahblah" />
+                  <Label layoutX="572.0" layoutY="191.0" text="Date of Birth :">
+                     <font>
+                        <Font name="MS Outlook" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="699.0" layoutY="191.0" prefHeight="17.0" prefWidth="73.0" text="blahblah" />
+                  <Label layoutX="304.0" layoutY="237.0" text="Department :">
+                     <font>
+                        <Font name="MS Outlook" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="434.0" layoutY="237.0" prefHeight="17.0" prefWidth="73.0" text="blahblah" />
+                  <Label layoutX="301.0" layoutY="286.0" text="E-mail ID :">
+                     <font>
+                        <Font name="MS Outlook" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="699.0" layoutY="142.0" prefHeight="17.0" prefWidth="73.0" text="blahblah" />
+                  <Label layoutX="572.0" layoutY="142.0" text="Mobile Number :">
+                     <font>
+                        <Font name="MS Outlook" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="572.0" layoutY="237.0" text="Semester :">
+                     <font>
+                        <Font name="MS Outlook" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="699.0" layoutY="237.0" prefHeight="17.0" prefWidth="73.0" text="blahblah" />
+                  <Label layoutX="434.0" layoutY="286.0" prefHeight="17.0" prefWidth="73.0" text="blahblah" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.validation.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="510.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mydiary.LoginScreenController">
+    
+   <children>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="4.0" layoutY="31.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="513.0" text="MY DIARY" textAlignment="CENTER" textFill="#03a9f4" AnchorPane.bottomAnchor="412.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="-4.0" AnchorPane.topAnchor="31.0">
+         <font>
+            <Font name="MS Outlook" size="23.0" />
+         </font></Label>
+      <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="195.0" layoutY="295.0" onAction="#loginAction" prefHeight="34.0" prefWidth="128.0" ripplerFill="#1976d2" style="-fx-background-color: #03A9F4;" text="LOGIN" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="MS Outlook" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="195.0" layoutY="358.0" onAction="#signUpAction" prefHeight="34.0" prefWidth="128.0" ripplerFill="#1976d2" style="-fx-background-color: #03A9F4;" text="SIGN UP" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="MS Outlook" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="username" alignment="CENTER" focusColor="#03a9f4" labelFloat="true" layoutX="147.0" layoutY="144.0" maxWidth="235.0" minWidth="187.0" prefHeight="36.0" prefWidth="235.0" promptText="Enter Username">
+         <font>
+            <Font name="MS Outlook" size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField fx:id="password" alignment="CENTER" focusColor="#03a9f4" labelFloat="true" layoutX="147.0" layoutY="221.0" maxWidth="235.0" minWidth="175.0" prefHeight="36.0" prefWidth="235.0" promptText="Enter Password">
+         <font>
+            <Font name="MS Outlook" size="14.0" />
+         </font>
+      </JFXPasswordField>
+      <AnchorPane fx:id="root" prefHeight="36.0" prefWidth="510.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <JFXSnackbar fx:id="snackbar" layoutX="255.0" layoutY="18.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      
+   </children>
+    
+</AnchorPane>
