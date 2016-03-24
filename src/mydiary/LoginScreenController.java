@@ -54,7 +54,7 @@ public class LoginScreenController implements Initializable {
         Pane pane = (Pane) signUpLoader.load();
         Scene signUpScene = new Scene(pane);
         
-        SignUpScreenController signUpController = (SignUpScreenController) signUpLoader.getController();
+        SignUpStudentScreenController signUpController = (SignUpStudentScreenController) signUpLoader.getController();
         signUpController.setLoginStage(prevStage);
         
         signUpStage.setScene(signUpScene);

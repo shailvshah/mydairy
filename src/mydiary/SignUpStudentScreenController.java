@@ -21,7 +21,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import org.bson.Document;
 
-public class SignUpScreenController implements Initializable {
+public class SignUpStudentScreenController implements Initializable {
 
     
     private Stage loginStage;
