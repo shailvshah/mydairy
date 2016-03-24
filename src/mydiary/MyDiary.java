@@ -13,7 +13,7 @@ import javafx.scene.layout.Pane;
 
 /**
  *
- * @author Adarsh
+ * @author Adarsh@Server
  */
 public class MyDiary extends Application {
     
